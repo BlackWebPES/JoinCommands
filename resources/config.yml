@@ -4,17 +4,16 @@
 # Command executed when player joins the game;
 enablejoin: true
 JoinCommand: 
-- give {player} 50 1
-- tell {player} You are awesome!
+- st {player} §c§lBlackWebPE
 # Command executed when player dies;
-enabledeath: true
+enabledeath: false
 DeathCommand: 
-- say {player} Died again...
+- say {player} OMG
 # Command executed when player does /spawn or respawns into the game;
 enablespawn: true
 RespawnCommand: 
-- tell {player} Welcome to spawn!
+- st §c§lRespawning...
 # Command executed when player leaves the game;
-enableleave: true
+enableleave: false
 LeaveCommand: 
-- say {player} ragequit from the server!
+- say {player} OMG
